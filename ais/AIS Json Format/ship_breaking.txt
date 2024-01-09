@@ -1,0 +1,43 @@
+{
+    "mv_imo": 777555,
+    "mv_ship_name": "SAN",
+    "mv_ais_type_summary": "Tanker",
+    "mv_flag": "ID",
+    "shipbreakingcrew": [
+        {
+            "sbc_name": "kkk",
+            "sbc_nationality": "pk"
+        }
+    ],
+    "sb_dtg": "2023-08-18T06:21:51Z",
+    "sb_flag_reg_cert": true,
+    "sb_crew": 1,
+    "sb_imo_verified": true,
+    "sb_agreement_memo": true,
+    "sc_credit_let": true,
+    "sb_lpoc": "karachi",
+    "sb_mast_name": "hashim",
+    "sb_mast_nationality": "pakistani",
+    "sb_buyer_comp_name": "abc",
+    "sb_buyer_comp_num": "98765432345",
+    "sb_owner_name": "333333",
+    "sb_owner_num": null,
+    "sb_locshipping_comp_name": "dfg",
+    "sb_locshipping_agent_name": "danial",
+    "sb_locshipping_agent_num": "4566785",
+    "sb_sec_team": true,
+    "sb_haz_material": true,
+    "sb_gas_free_cert": true,
+    "sb_waste_free_cert": true,
+    "sb_import_gen_manifest": true,
+    "sb_comm_equip_list": [
+        "a",
+        "b",
+        "c"
+    ],
+    "sb_goods_dec_doc": true,
+    "sb_del_cert": true,
+    "sb_iso_cert": true,
+    "sb_ex_name": "kaka",
+    "sb_emb_name": "123"
+}

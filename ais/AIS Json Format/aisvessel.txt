@@ -1,0 +1,16 @@
+{
+    "mv_mmsi": "563144300",
+    "mv_imo": "65667453",
+    "mv_ship_id": "6876911",
+    "mv_ship_name": "GAS CAPRICORN",
+    "mv_ship_type": "80",
+    "mv_call_sign": "",
+    "mv_flag": "SG",
+    "mv_length": 230.0,
+    "mv_width": 36.0,
+    "mv_grt": 49997.0,
+    "mv_dwt": 55081.0,
+    "mv_year_built": 2022,
+    "mv_type_name": "LPG Tanker",
+    "mv_ais_type_summary": "Tanker"
+}
