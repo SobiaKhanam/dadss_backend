@@ -1,0 +1,89 @@
+Platform
+
+/platform                                                   GET (Returns All plaforms) (v2 /get_all_platform)
+/platform                                                   POST (Saves Platform)   (v2 /save_platform)
+/platform?pf_id=                                            GET (v2 get_platform_by_id/<str:id>)
+
+Extra
+/platform/1                                                 GET (Returns platform at pf_key=1)
+/platform?search=ABC123                                     GET (Search platform with pf_id and pf_name)
+/platform?pf_name=Ahsan Sheikh                              GET (All Platform with pf_name)
+/platform?ordering=-pf_key                                  GET (All platform with reverse ordering)
+/platform/count                                             GET (number of platforms)
+
+
+Registered Vessel
+/rvessel                                                    POST    (v2 /save_rvessel)
+/rvessel                                                    GET     (v2 /get_all_rvessel)
+/rvessel/1                                                  GET     (v2 /get_rvessel_by_key/<int:key>)
+/rvessel?rv_id=                                             GET     (v2 /get_rvessel_by_id/<str:id>)
+
+General Report
+/greport                                                    POST    (v2 /save_greport)
+/greport                                                    GET     (v2 /get_all_greport)
+/greport/3                                                  GET     (v2 /get_greport_by_key/<int:key>)
+
+Fishing Vessel
+/fishing                                                    POST    (v2 /save_fishing)
+/fishing/rvkey/4                                            GET     (v2 /get_fishing_by_rvkey/<int:rv_key>)
+
+Merchant Vessel
+/merchant                                                   POST    (v2 /save_merchant)
+/merchant/id/4                                              GET     (v2 /get_merchant_by_id/<int:id>)
+
+AIS Vessel
+/aisvesel							                        GET (Return ais vessel data)
+/aisvesel/123							                    GET (Return ais vessel data of provided mv_key)
+
+MISREP
+/misrep                                                     POST    (v2 /save_misrep)
+
+
+User
+/user                                                       GET     (Returns all users)
+
+Intel Report
+/ireport                                                    POST    (v2 /save_ireport)
+/ireport                                                    GET     (v2 /get_all_ireport)
+/ireport/3                                                  GET     (v2 /get_ireport_by_ir_key/<int:ir_key>)
+/ireport_details                                            POST    (v2 /save_ireport_details)
+/ireport_details                                            GET     (v2 /get_all_ireport_details)
+/ireport_details/3                                          GET     (v2 /get_ireport_details_by_ird_key/<int:ird_key>)
+
+Lost Report
+/lreport                                                    POST    (v2 /save_lreport)
+/lreport                                                    GET     (v2 /get_all_lreport)
+/lreport/3                                                  GET     (v2 /get_lreport_by_lr_key/<int:lr_key>)
+
+Situational Report
+/sreport                                                    POST    (v2 /save_sreport)
+/sreport                                                    GET     (v2 /get_all_sreport)
+/sreport/3                                                  GET     (v2 /get_sreport_by_s_key/<int:s_key>)
+
+PNSC Ship Data
+/psreport                                                   POST    (v2 /save_psreport)
+/psreport                                                   GET     (v2 /get_all_psreport)
+/psreport/3                                                 GET     (v2 /get_psreport_by_ps_key/<int:ps_key>)
+
+
+Sobia Visuals
+/trip_duration                                              GET (Returns count os ships that stay for less than 15 days, between 15 and 30 days and greater than 30 days)
+/trip_duration?date_from=2020-07-01&&date_to=2021-07-10     GET (Returns data in the specified date range)
+/trip_count?date_from=2020-07-01&&date_to=2021-07-10        GET (Returns number of ships at each boat_location month or day wise)
+
+/overstay                                                   GET (Returns the number of ships overstayed at each boat_location)
+/overstay?date_from=2020-07-01&&date_to=2021-07-10          GET (Returns count in specified range)
+/overstay?boat_location=MOOSA LANE                          GET (Returns details of each boat overstayed at specified location)
+/overstay?date_from=2020-07-01&&date_to=2021-07-10&&boat_location=MOOSA LANE
+
+
+/overstay_month                                             GET (Returns the number of ships overstayed at each boat_location month-wise or day-wise)
+/overstay_month?date_from=2020-07-01&&date_to=2021-07-10    GET (Returns data in the specified date range)
+
+/leave_enter?date_from=2020-07-01&&date_to=2021-07-10       GET (Returns arrivals and departures at all ports in the specified time period)
+/(same as above)...&&boat_location=MOOSA LANE               GET (Returns the same data but only of specified boat location)
+
+/fv_leave_enter?date_from=2020-07-01&&date_to=2021-07-10    GET (Returns arrivals and departures location-wise in the specified time period)
+/(same as above)...&&boat_location=MANORA                   GET (Returns the same data but only of specified boat location)
+
+/tripviewset/upload_data                                    POST (Save data from csv file into trip table)

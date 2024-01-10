@@ -1,0 +1,14 @@
+// Register
+{
+    "username": "Ali",
+    "password": "Ali",
+    "u_pf_id": "SINC",
+    "category": "A",        // A-> Access to forms and maps, B->Access to forms only, C->Access to maps onlyc
+}
+
+// Login
+{
+    "username": "Ali",
+    "password": "Ali"
+}
+

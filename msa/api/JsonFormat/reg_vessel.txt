@@ -1,0 +1,62 @@
+{
+    "rv_pf_id": "1234EAGA",
+    "rv_id": "ABC123",
+    "rv_regno": "R.9G9CHNN",
+    "rv_name": "Endurance Vessel",
+    "rv_type": "Cargo Vessels",
+    "rv_flag": "Pakistan",
+    "rv_province": "balochistan",
+    "rv_length": 100,
+    "rv_breadth": 50,
+    "rv_tonnage": 42000,
+    "nakwaDetails": [
+        {
+            "rvc_name": "Jamal",
+            "rvc_nationality": "Lorem Ipsum",
+            "rvc_ethnicity": "Lorem Ipsum",
+            "rvc_cell": "+3423234"
+        }
+    ],
+    "ownerDetails": [
+        {
+            "rvo_name": "Salman Shaikh",
+            "rvo_nationality": "Pakistani",
+            "rvo_idtype": "CNIC",
+            "rvo_id": "12345-6789011-1",
+            "rvo_idexpdt": "2023-03-29",
+            "rvo_ethnicity": "Sindhi",
+            "rvo_share": 30,
+            "rvo_cell": "+92312234567"
+        },
+        {
+            "rvo_name": "Salman Shaikh",
+            "rvo_nationality": "Pakistani",
+            "rvo_idtype": "CNIC",
+            "rvo_id": "12345-6789011-1",
+            "rvo_idexpdt": "2023-03-29",
+            "rvo_ethnicity": "Sindhi",
+            "rvo_share": 30,
+            "rvo_cell": "+92312234567"
+        },
+        {
+            "rvo_name": "Salman Shaikh",
+            "rvo_nationality": "Pakistani",
+            "rvo_idtype": "CNIC",
+            "rvo_id": "12345-6789011-1",
+            "rvo_idexpdt": "2023-03-29",
+            "rvo_ethnicity": "Sindhi",
+            "rvo_share": 30,
+            "rvo_cell": "+92312234567"
+        },
+        {
+            "rvo_name": "Salman Shaikh",
+            "rvo_nationality": "Pakistani",
+            "rvo_idtype": "CNIC",
+            "rvo_id": "12345-6789011-1",
+            "rvo_idexpdt": "2023-03-29",
+            "rvo_ethnicity": "Sindhi",
+            "rvo_share": 30,
+            "rvo_cell": "+92312234567"
+        }
+    ]
+}

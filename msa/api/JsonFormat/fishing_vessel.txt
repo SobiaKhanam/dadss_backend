@@ -1,0 +1,68 @@
+{
+    "sr_pf_id": "ABC456",
+    "sr_patroltype": "Anti Narco",
+    "sr_fuelrem": 66,
+    "sr_position": {
+        "type": "Point",
+        "coordinates": [
+            66.48294404817483,
+            23.058794193999773
+        ]
+    },
+    "sr_dtg": "2023-03-29T06:34:06.037Z",
+    "sr_action": "query",
+    "sr_rv_key": 10,
+    "sr_movement": "slow",
+    "sr_info": "lorem",
+    "tripDetails": {
+        "sr_depjetty": "Lorem",
+        "sr_depdt": "2011-10-10",
+        "sr_pc": "Lorem",
+        "sr_pcdays": 10,
+        "sr_pcissuedt": "2023-2-14"
+    },
+    "nakwaDetails": [
+        {
+            "src_name": "Hasan",
+            "src_nationality": "Lorem Ipsum",
+            "src_ethnicity": "Lorem Ipsum",
+            "src_cell": "+3423234"
+        }
+    ],
+    "ownerDetails": [
+        {
+            "sro_name": "Salman Shaikh",
+            "sro_nationality": "Pakistani",
+            "sro_idtype": "CNIC",
+            "sro_id": "12345-6789011-1",
+            "sro_idexpdt": "2023-03-29",
+            "sro_ethnicity": "Sindhi",
+            "sro_share": 30,
+            "sro_cell": "+92312234567"
+        }
+    ],
+    "goodDetails": [
+        {
+            "srg_item": "Cotton",
+            "srg_qty": 56,
+            "srg_denomination": "Capesize",
+            "srg_category": "Narcotics",
+            "srg_subcategory": "Heroine",
+            "srg_value": 120000,
+            "srg_source": "India",
+            "srg_confiscated": "True",
+            "srg_remarks": "Anything"
+        }
+    ],
+    "crewDetails": [
+        {
+            "src_name": "Salman Shaikh",
+            "src_nationality": "Pakistani",
+            "src_idtype": "CNIC",
+            "src_id": "12345-6789011-1",
+            "src_idexpdt": "2011-10-10",
+            "src_ethnicity": "Sindhi",
+            "src_cell": "+92312234567"
+        }
+    ]
+}

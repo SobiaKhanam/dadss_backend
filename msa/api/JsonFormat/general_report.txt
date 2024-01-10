@@ -1,0 +1,58 @@
+{
+    "gr_pf_id": "12345-6789011-1",
+    "gr_dtg": "2023-04-25T06:34:06.037Z",
+    "gr_position": {
+        "type": "Point",
+        "coordinates": [
+            66.48294404817483,
+            25.058794193999773
+        ]
+    },
+    "gr_patroltype": "Cargo Vessels",
+    "gr_fuelrem": 30,
+    "gr_info": "Lorem Ipsum is a",
+    "fishingDensities": [
+        {
+            "grd_position": {
+                "type": "Point",
+                "coordinates": [
+                    -111.48294404817483,
+                    25.058794193999773
+                ]
+            },
+            "grd_qty": 12,
+            "grd_type": "Lorem Ipsum is a",
+            "grd_movement": "slow"
+        }
+    ],
+    "fishingVesselObserved": [
+        {
+            "grf_position": {
+                "type": "Point",
+                "coordinates": [
+                    -111.48294404817483,
+                    25.058794193999773
+                ]
+            },
+            "grf_name": "TrawlerY3NX",
+            "grf_type": "Lorem Ipsum",
+            "grf_movement": "fast"
+        }
+    ],
+    "merchantVesselObserved": [
+        {
+            "grm_position": {
+                "type": "Point",
+                "coordinates": [
+                    -111.48294404817483,
+                    25.058794193999773
+                ]
+            },
+            "grm_name": "TrawlerY3NX",
+            "grm_type": "Lorem Ipsum",
+            "grm_movement": "fast",
+            "grm_lpoc": "Lorem",
+            "grm_npoc": "Ipsum"
+        }
+    ]
+}
