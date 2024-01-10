@@ -1,0 +1,4 @@
+VIS
+
+/query_data                         GET (Returns data of BoatTripLogs from mariadb)
+/populate_rvessels                  POST (Populate rvessel table with few entries from boat table)
