@@ -1,0 +1,37 @@
+{
+    "msr_position": {
+        "type": "Point",
+        "coordinates": [
+            4.3708,
+            8.2875
+        ]
+    },
+    "goodDetails": [
+        {
+            "msrg_qty": 22,
+            "msrg_value": 45,
+            "msrg_item": null,
+            "msrg_denomination": null,
+            "msrg_category": null,
+            "msrg_subcategory": null,
+            "msrg_source": null,
+            "msrg_confiscated": false,
+            "msrg_remarks": null
+        }
+    ],
+    "tripDetails": {
+        "msr2_lpoc": "jnkke",
+        "msr2_lpocdtg": "2023-08-18",
+        "msr2_npoc": "djcb",
+        "msr2_npoceta": "2023-08-18"
+    },
+    "msr_pf_id": "SINC",
+    "msr_dtg": "2023-08-18T06:21:51Z",
+    "msr_type": "MERCHANT",
+    "msr_mv_key": 10,
+    "msr_movement": "jsdknc",
+    "msr_action": "sdnc",
+    "msr_info": "kdcn",
+    "msr_fuelrem": 23,
+    "msr_patroltype": "cdnm"
+}

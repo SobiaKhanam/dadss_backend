@@ -1,0 +1,27 @@
+{
+    "ps_position": {
+        "type": "Point",
+        "coordinates": [
+            66.55205,
+            24.55779
+        ]
+    },
+    "ps_country": "Pakistan",
+    "ps_status_symbol": "",
+    "ps_status_symbol_remarks": "",
+    "ps_status_symbol_assigned_time": null,
+    "ps_track_number": null,
+    "ps_speed": 0.0,
+    "ps_course": 130.0,
+    "ps_timestamp": "2023-10-03T18:42:00Z",
+    "ps_lastport": "",
+    "ps_next_port": "",
+    "ps_track_type": "SAT AIS",
+    "ps_track_label": "KHAIRPUR",
+    "mvessel": {
+        "mv_imo": 9597147,
+        "mv_ship_name": "hhh",
+        "mv_flag": "pk",
+        "mv_ais_type_summary": "fff"
+    }
+}
