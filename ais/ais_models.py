@@ -328,7 +328,7 @@ class SituationalReport(models.Model):
     sit_key = models.BigAutoField(primary_key=True)
     sit_mv_key = models.ForeignKey(Merchant_Vessel, on_delete=models.CASCADE, db_column='sit_mv_key')
     sit_dtg = models.DateTimeField(blank=True, null=True)
-    sit_mmsi = models.CharField(max_length=100, blank=True, null=True)
+    # sit_mmsi = models.CharField(max_length=100, blank=True, null=True)
     sit_position = models.TextField(blank=True, null=True)
     sit_lpoc = models.CharField(max_length=100, blank=True, null=True)
     sit_last_port_country = models.CharField(max_length=100, blank=True, null=True)
