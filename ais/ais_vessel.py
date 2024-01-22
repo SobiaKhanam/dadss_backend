@@ -134,7 +134,8 @@ class MerchantViewSet(CustomSrViewSet):
 
 
 class MerchantVesselList(generics.ListAPIView):
-    queryset = Merchant_Vessel.objects.all().order_by('-mv_key')
+    # queryset = Merchant_Vessel.objects.all().order_by('-mv_key')
+    queryset = Merchant_Vessel.objects.filter(mv_data_source='ais').order_by('-mv_key')
     serializer_class = MerchantVesselSerializer
     filter_backends = [SearchFilter]
     search_fields = ['mv_imo']
